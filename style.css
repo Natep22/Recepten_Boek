@@ -1,0 +1,216 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: circular, sans-serif, bold;
+    font-size: 21px;
+}
+
+.flex-container-header{
+    display: flex;
+    background-color: rgb(194, 245, 245);
+    justify-content: space-evenly;
+}
+
+.Rechts a div:hover {
+    transform: scale(1.15); /* Grows the size by 15% */
+    transition: transform 0.3s, background-color 0.3s; /* Smooth transition */
+}
+
+.Links a div:hover {
+    transform: scale(1.15); /* Grows the size by 15% */
+    transition: transform 0.3s, background-color 0.3s; /* Smooth transition */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Rechts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Logo a div:hover {
+    transform: scale(1.15); /* Grows the size by 15% */
+    transition: transform 0.3s, background-color 0.3s; /* Smooth transition */
+}
+.Links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container-header > div{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 33%;
+    height: 100px;
+    text-align: center;
+}
+
+.flex-container-body{
+    
+    flex-direction: row;
+    background-color: #eadbfc;
+    width: 100%;	
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.body-header > h1{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.body-header{
+    padding: 10px;
+    margin: 10px;
+}
+
+.body-header > p{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.items{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    background-color: beige;
+}
+
+.items > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.items > div > a > img{
+    width: 350px;
+    height: 450px;
+}
+
+.items > div > a > img:hover{
+    transform: scale(1.15); /* Grows the size by 15% */
+    transition: transform 0.3s, background-color 0.3s; /* Smooth transition */
+}
+
+.flex-container-review {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+div {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+}
+
+.flex-container-footer{
+    display: flex;
+    background-color: rgb(194, 245, 245);
+    justify-content: center;
+}
+
+footer{
+    align-items: center;
+    display: flex;
+   flex-direction: row;
+   
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next row */
+    justify-content: space-evenly; /* Distributes items evenly */
+    height: auto; /* Adjusts height dynamically */
+    background-color: beige;
+    padding: 80px;
+}
+
+.items > div {
+    flex-basis: 30%; /* Each item takes up approximately 30% of the row */
+    margin: 10px; /* Adds spacing between items */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-body-Re {
+    display: flex;
+    flex-direction: column;
+    background-color: #9e6add;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.flex-container-body-Re > .items-Re {
+    width: 100%;
+    height: 1550px;
+    background-color: bisque;
+}
+
+.flex-container-body-Re > .items-Re > div{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(80, 245, 94);
+    padding: 10px;
+    margin: 10px;
+}
+
+.items-Re > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Tijden{
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #9e6add;
+
+}
+
+.Over_Ons{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    height: auto;
+    width: 98%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #9e6add;
+}
+
+.Over_Ons > p{
+    padding: 50px;
+}
+
